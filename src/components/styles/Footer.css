@@ -1,0 +1,46 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #112855; 
+    color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: auto;
+    height: 8vh;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 30px; /* Adjust the height to fit your design */
+    margin-right: 10px;
+}
+
+.separator {
+    margin: 0 10px;
+}
+
+.rights {
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width: 600px) and (min-width: 100px){
+
+    /* .footer{
+        margin-top: 10vh; */
+    /* } */
+    
+  }

@@ -1,0 +1,47 @@
+body{
+    background-color: #6dc44e;
+}
+.full-body{
+    background-color: #94d87b;
+    /* background-color: #4fafd2; */
+    border: 0px solid black;
+}
+.navbar-brand {
+    font: 4rem;
+    margin-left: 5%;
+}
+
+.navbar .btn {
+    justify-content: left;
+    display: flex;
+    margin-left: 10px;
+}
+
+.navbar{
+    height: 10vh;
+}
+
+
+.islog{
+    margin-left: 60%;
+}
+
+.no-dec{
+    text-decoration: none;
+}
+
+
+.heading{
+    font-size: 1.6rem;
+}
+
+
+@media only screen and (max-width: 600px) and (min-width: 100px){
+    .navbar-brand {
+        margin-left: auto;
+        margin-right: auto;
+    }    
+    .bg-body-tertiary{
+        min-height: 1vh;
+      }
+}

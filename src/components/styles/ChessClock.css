@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(221, 216, 216);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#heading {
+  background-color: black;
+  color: white;
+  margin: auto;
+  padding: 10px;
+  border: white 1px solid;
+}
+
+.clock-header{
+  padding-left: 30%;
+  color: white;
+}
+#chess-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-top: 5vh;
+  border: white 1px solid;
+  /* width: 55%; */
+}
+
+#container1,
+#container2 {
+  cursor: pointer;
+  border: 1px solid black;
+  height: 30vh;
+  background-color: white;
+  border: white 1px solid;
+}
+
+#middle {
+  padding: 2%;
+  display: flex;
+  background-color: gray;
+  border: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+  border: white 1px solid;
+}
+
+#player1,
+#player2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.images img {
+  max-height: 2.2rem;
+  max-width: 2.2rem;
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  cursor: pointer;
+  margin: 0 6%;
+  display: flex;
+}
+
+.moves {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.movechar {
+  margin-left: 5%;
+}
+
+.cntdown1,
+.cntdown2 {
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: auto;
+  color: black;
+}
+
+#foot {
+  display: flex;
+  font-size: 1rem;
+  padding-top: 5px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* .active {
+  color: black;
+}
+ */
+
+#container1.active,
+#container2.active {
+  background-color: #8ad56f;
+}
+
+@media only screen and (max-width: 850px) and (min-width: 420px) {
+  #heading {
+    height: 8%;
+    padding: 2px 0;
+  }
+
+  #chess-container {
+    height: 92.7vh;
+    width: 100%;
+  }
+
+  #middle {
+    height: 12%;
+  }
+
+  #container1,
+  #container2 {
+    height: 40%;
+  }
+
+  .cntdown1 {
+    margin-top: 12%;
+  }
+
+  .cntdown2 {
+    margin-top: 18%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  body{
+    min-height: 80vh;
+  }
+  #heading {
+    height: 5%;
+    padding: 2px 0;
+  }
+
+  #chess-container {
+    height: 93vh;
+    width: 100%;
+  }
+
+  #middle {
+    height: 6%;
+    padding-top: 6px;
+  }
+
+  /* #container1 {
+    height: 37%;
+  }
+
+  #container2 {
+    height: 35%;
+  } */
+  #container1, #container2{
+    height: 30%;
+  }
+
+  .images img {
+    height: 1.7rem;
+    width: 1.7rem;
+  }
+
+  .cntdown1,
+  .cntdown2 {
+    margin-top: 25%;
+  }
+
+  #settings1 img {
+    padding-left: 10px;
+  }
+
+  #settings2 img {
+    padding-right: 10px;
+  }
+}

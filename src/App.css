@@ -1,0 +1,19 @@
+.navbar-collapse {
+  transition: max-height 0.5s ease-out;
+}
+
+.navbar-collapse.collapsing {
+  transition: max-height 0.5s ease-in;
+}
+
+.navbar-collapse.show {
+  max-height: 500px; /* Adjust as needed */
+}
+
+.content {
+  transition: margin-top 0.5s ease-out;
+}
+
+.content.shifted {
+  margin-top: 150px; /* Adjust as needed to match the expanded navbar height */
+}
